@@ -1,4 +1,14 @@
+@import '../../../../variables.scss';
+
 :host {
-  background: #ddd;
+  background: $primary;
   padding: 20px;
+}
+.logo {
+  font-size: 22px;
+  color: white;
+}
+.logo-icon {
+  font-size: 26px;
+  color: white;
 }
